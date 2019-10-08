@@ -25,7 +25,7 @@ describe "Simon says" do
     it "should repeat" do
       expect(repeat("hello")).to eq("hello hello")
     end
-
+=begin 
     # Wait a second! How can you make the "repeat" method
     # take one *or* two arguments?
     #
@@ -79,5 +79,5 @@ describe "Simon says" do
       expect(titleize("the bridge over the river kwai")).to eq("The Bridge Over the River Kwai")
     end
   end
-
+=end
 end

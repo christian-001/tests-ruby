@@ -11,6 +11,7 @@ describe 'who is the biggest number' do
   end
 end
 
+
 describe 'crazy stuff on strings' do
   # Reverse, upcase then removes all L, T and A.
   # Hint: google ruby string
@@ -24,7 +25,7 @@ describe 'crazy stuff on strings' do
   end
 end
 
-
+=begin
 describe '42 finder' do
   # array_42 takes an array as parameter and returns:
   # - true if there's a 42 in the array items
@@ -57,3 +58,5 @@ describe 'crazy stuff on arrays' do
       .to eq([2, 4, 14, 16, 64])
   end
 end
+
+=end
